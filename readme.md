@@ -21,3 +21,8 @@
 #### terraform apply - apply the changes which was shown in the plan state and they can be executed in reality. So a resource group will be created in Azure
 
     terraform plan
+
+
+#### terraform destroy - upon running it, it will create a destroy plan. It will try to delete only the resource group as it is only defined in this configuration. Tf will destroy resources in the proper order.
+
+    terraform destroy
